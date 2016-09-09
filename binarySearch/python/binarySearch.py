@@ -17,7 +17,7 @@ def binary_search(items, item):
     return (None,count)
 
 def test():
-    index = binary_search(data,6)
+    index = binary_search(data,65)
     print(index)
 
 test()
