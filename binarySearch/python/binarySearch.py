@@ -1,5 +1,5 @@
 data = [1,4,6,9,21,65]
-
+#O(log n)
 def binary_search(items, item):
     low = 0
     high = len(items) - 1
