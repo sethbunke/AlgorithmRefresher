@@ -6,4 +6,4 @@ find_combinations = lambda N, k: math.factorial(N) /(math.factorial(k) * math.fa
 
 find_probability = lambda N, k, p ,q: ((p ** k) * (q ** (N - k))) * find_combinations(N,k)
 
-print(find_probability(10, 8, 0.6, 0.4))
+#print(find_probability(10, 8, 0.6, 0.4))
